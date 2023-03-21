@@ -15,3 +15,7 @@
     font-size: 14px;
     text-transform: uppercase;
 }
+
+btn-container .btn :hover{
+    background-color: #00285F;
+}
