@@ -1,9 +1,16 @@
-import './assets/styles/custom.scss';
-import './App.css';
+import "./assets/styles/custom.scss";
+import "./App.css";
+import Home from "pages/Home";
+import ProductCard from "components/ProductCard";
+import Navbar from "components/Navbar";
+import Catalog from "pages/Catalog";
 
 function App() {
   return (
-    <h1>Hello Carros TOP</h1>
+    <>
+      <Navbar />
+      <Catalog />
+    </>
   );
 }
 

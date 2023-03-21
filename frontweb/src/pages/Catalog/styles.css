@@ -1,0 +1,62 @@
+.container-card {
+  background-color: #e5e5e5;
+}
+
+.container-busca {
+  background-color: #ededed;
+  margin: 20px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 86px;
+}
+
+.campo-busca input {
+  border-radius: 5px 0px 0px 5px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.botao button {
+  background-color: #00285f;
+  height: 40px;
+  border-radius: 0px 5px 5px 0px;
+  color: #fff;
+  font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  .container-busca {
+    margin: 30px 20px;
+    height: 123px;
+  }
+  .campo-busca input {
+    font-size: 14px;
+    width: 320px;
+  }
+
+  .botao button {
+    width: 174px;
+  }
+}
+
+@media (min-width: 768px) {
+    .container-busca {
+      margin: 30px 20px;
+    }
+    .campo-busca input {
+      width: 516px;
+    }
+  
+    .botao button {
+      width: 174px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .campo-busca input {
+      width: 584px;
+    }
+  }
